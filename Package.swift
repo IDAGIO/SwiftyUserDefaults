@@ -11,8 +11,8 @@ let package = Package(
             targets: ["SwiftyUserDefaults"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Quick/Quick.git", .upToNextMajor(from: "1.3.0")),
-        .package(url: "https://github.com/Quick/Nimble.git", .upToNextMajor(from: "7.1.0"))
+        .package(url: "https://github.com/Quick/Quick.git", .upToNextMajor(from: "3.1.2")),
+        .package(url: "https://github.com/Quick/Nimble.git", .upToNextMajor(from: "9.0.0"))
     ],
     targets: [
         .target(
